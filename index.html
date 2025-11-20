@@ -1,4 +1,143 @@
 <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECLIPSE-BR 2041 | Estudo Neurocientífico Aberto</title>
+  <meta name="description" content="Estudo interinstitucional sobre neuroplasticidade, simulação e vulnerabilidade à violência em adolescentes brasileiros. Dados abertos. Acesso livre.">
+  <style>
+    :root {
+      --azul-escuro: #0a2e5a;
+      --cinza-claro: #f5f7fa;
+      --laranja-suave: #ff9e6d;
+      --verde-terra: #4a7c59;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background-color: #fff;
+    }
+    header {
+      background: linear-gradient(135deg, var(--azul-escuro), #1e3a8a);
+      color: white;
+      padding: 2rem 5%;
+      text-align: center;
+    }
+    h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+    .subtitle { font-size: 1.1rem; opacity: 0.9; max-width: 800px; margin: 0 auto; }
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 2rem;
+    }
+    section { margin-bottom: 2.5rem; }
+    h2 {
+      color: var(--azul-escuro);
+      border-bottom: 2px solid var(--laranja-suave);
+      padding-bottom: 0.5rem;
+      margin: 1.5rem 0 1rem;
+    }
+    p { margin-bottom: 1rem; }
+    .authors {
+      background-color: var(--cinza-claro);
+      padding: 1rem;
+      border-radius: 6px;
+      font-style: italic;
+    }
+    .chart-container {
+      background: white;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 1.2rem;
+      margin: 1.5rem 0;
+    }
+    .chart-placeholder {
+      width: 100%;
+      height: 300px;
+      background: #f9fbfd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #666;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+    .data-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .data-card {
+      background: #f0f4f8;
+      padding: 1rem;
+      border-radius: 6px;
+      text-align: center;
+    }
+    .data-value { font-size: 1.4rem; font-weight: bold; color: var(--azul-escuro); }
+    .data-label { font-size: 0.9rem; color: #555; }
+    .btn {
+      display: inline-block;
+      background: var(--verde-terra);
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 0.5rem;
+      transition: opacity 0.2s;
+    }
+    .btn:hover { opacity: 0.9; }
+    .note {
+      background-color: #fff8e1;
+      padding: 1rem;
+      border-left: 4px solid #ffc107;
+      font-size: 0.95rem;
+      margin: 1.5rem 0;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #666;
+      font-size: 0.9rem;
+      border-top: 1px solid #eee;
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 1.8rem; }
+      .subtitle { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ECLIPSE-BR 2041</h1>
+  <p class="subtitle">Neuroplasticidade, simulação e vulnerabilidade à violência instrumental em adolescentes brasileiros</p>
+  <p><em>Coordenação: Fiocruz | USP | Universidad de Buenos Aires</em></p>
+</header>
+
+<div class="container">
+
+  <section>
+    <h2>Resumo do Estudo</h2>
+    <p>Este estudo investigou os efeitos da exposição prolongada a jogos de combate com recompensa por eliminação sobre a arquitetura cerebral e a empatia funcional em adolescentes brasileiros.</p>
+    <p>Foram analisados <strong>127 participantes</strong> (14–19 anos), divididos em três grupos, com avaliação por fMRI, metilação do gene <em>NR3C1</em>, e testes comportamentais padronizados.</p>
+    <div class="authors">
+      Dra. Lívia Santoro (Fiocruz) • Dr. Esteban Rojas (UBA) • Dr. Tomás Veloso (ex-NeuroPlay Labs)
+    </div>
+  </section>
+
+  <section>
+    <h2>Principais Resultados</h2>
+
+    <div class="chart-container">
+      <div class="chart-placeholder">
+        [Gráfico 1: Ativação da ínsula anterior esquerda (fMRI em repouso)]
+        <br><em>Dados reais adaptados — clique para baixar SVG/PNG</em>
+      </div>
+      <a href="fig1_fMRI.svg" class="btn" download>📥 Baixar gráfico</a>
     </div>
 
     <div class="data-grid">
